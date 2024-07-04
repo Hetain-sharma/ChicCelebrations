@@ -1,0 +1,66 @@
+.head-para {
+  margin: 80px;
+  background-color: grey;
+  height: 250px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.slide-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 800px;
+  width: auto;
+}
+
+.mySlides {
+  background-color: white;
+  margin: 50px;
+  height: 500px;
+  width: 500px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.appointment {
+  background-color: white;
+  height: 200px;
+  width: 90%;
+  margin: auto;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.makeup-image {
+  height: 300px;
+  width: auto;
+  border-radius: 10px;
+}
+.makeup-paragraph{
+  color: black;
+  font-size: xx-large;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  /* background-color: grey; */
+}
+
+.btn-1{
+  margin: 20px;
+  height: 50px;
+  width: 400px;
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  
+}

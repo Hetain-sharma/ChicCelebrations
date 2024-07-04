@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+}
+.video-div {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.heading {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.slide {
+  height: 60px;
+  width: 100%;
+  background-color: rgb(237, 104, 104);
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  justify-content: center;
+}
+
+
+.paragraph {
+  color: black;
+  font-size: xx-large;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  /* background-color: grey; */
+}
+.about-dance {
+  height: 800px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image {
+  height: 300px;
+  width: auto;
+  border-radius: 10px;
+}
+.link {
+  height: 480px;
+  width: 400px;
+  display: inline-flex;
+  border-radius: 10px;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+a{
+  text-decoration: none;
+}

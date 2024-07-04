@@ -1,0 +1,37 @@
+.para{
+  color: white;
+  font-size: xx-large;
+  /* text-align: center; */
+  border-radius: 10px;
+  margin: 50px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  /* background-color: grey; */
+}
+.contact-div{
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info-para{
+  margin: 20px;
+  height: auto;
+  color: red;
+  width: 400px;
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+}
+.form-input{
+  margin: 20px;
+  height: 50px;
+  width: 400px;
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
