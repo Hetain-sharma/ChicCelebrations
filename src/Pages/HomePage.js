@@ -21,7 +21,9 @@ export default function HomePage() {
     <div className="main">
       <PageNav />
       <div className="slide">
-        <h1 className="heading">Let's Make Your Event Amazing</h1>
+        <h1 className="heading">
+          From Dance Moves to Dream Looks—We've Got You Covered!
+        </h1>
       </div>
       <div className="video-div">
         <video
@@ -33,27 +35,60 @@ export default function HomePage() {
           ref={videoRef}
         />
       </div>
-      <h1 className="heading">Welcome To The Chic Celebrations</h1>
+      <div className="homepage-info">
+        <h1 className="heading">
+          {" "}
+          Transform your special day into an unforgettable experience! Whether
+          it's a wedding, engagement, or any occasion worth celebrating, we
+          bring the magic to your doorstep. Our expert dance instructors will
+          help you shine on the dance floor, while our professional costume
+          designers and makeup artists add the finishing touches to make your
+          event extraordinary. Let us handle the details so you can focus on
+          making memories
+        </h1>
+      </div>
       <div className="about-dance">
-        <div>
-          <div className="link">
+        <div className="link">
+          <div className="link-info">
+            <h1 className="text-info">
+              Let our expert choreographers turn your special moment into a
+              captivating performance. Whether it's a wedding or any grand
+              occasion, we'll help you shine with dance routines crafted just
+              for you.
+            </h1>
             <NavLink to="/coreography">
-              <img src={image} alt="Coreography"  className="image"/>
-              <p className="paragraph">Coreography</p>
+              <p className="text-para"> Know More..</p>
             </NavLink>
           </div>
-          <div className="link">
+          <img src={image} alt="Coreography" className="image" />
+        </div>
+        <div className="link">
+          <img src={makeup} alt="makeup" className="image" />
+          <div className="link-info">
+            <h1 className="text-info">
+              Let our expert makeup artists elevate your beauty with flawless,
+              long-lasting looks perfect for any special occasion. From subtle
+              elegance to bold glamour, we ensure you'll look and feel
+              extraordinary on your big day.
+            </h1>
             <NavLink to="/makeup">
-              <img src={makeup} alt="Makeup" className="image" />
-              <p className="paragraph"> Makeup Artists</p>
+              <p className="text-para"> Know More..</p>
             </NavLink>
           </div>
-          <div className="link">
-            <NavLink to="/coreography">
-              <img src={costume} alt="Desiners" className="image" />
-              <p className="paragraph">Costume Desiners</p>
+        </div>
+        <div className="link">
+          <div className="link-info">
+            <h1 className="text-info">
+              Our skilled costume designers craft custom outfits that perfectly
+              capture your style and theme. Whether it's traditional or modern,
+              we create stunning looks tailored to make your special day
+              unforgettable.
+            </h1>
+            <NavLink to="/costume">
+              <p className="text-para"> Know More..</p>
             </NavLink>
           </div>
+          <img src={costume} alt="Costume designs" className="image" />
         </div>
       </div>
       <Footer />

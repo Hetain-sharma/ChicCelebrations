@@ -4,3 +4,35 @@
   text-align: center;
   margin: 200px;
 }
+.head{
+  background-color: #100c08;
+  height: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.box1{
+  background-color: #28282B;
+  height: 500px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.box-img{
+  height: 300px;
+  width: auto;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+.box-para{
+  color: white;
+  font-size: xx-large;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 30px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+

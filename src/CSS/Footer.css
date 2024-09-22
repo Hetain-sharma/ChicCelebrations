@@ -1,8 +1,8 @@
 .footer{
-  background-color: grey;
+  background-color: #778da9;
   width: auto;
   border-radius: 5px;
-  margin: 20px;
+  margin-top: 30px;
 }
 .footer-p{
   color: white;
